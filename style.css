@@ -1,0 +1,132 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container{
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.top-header{
+	background-color:#264653;
+}
+
+.flex-parent{
+	height: 80px;
+	align-items: center;
+	justify-content: space-between;
+	display: flex;
+}
+
+.logo{
+	font-family: monospace;
+	color: white;
+	font-size: 30px;
+	padding: 5px
+}
+
+.top-menu-list{
+	list-style: none;
+	display: flex;
+}
+
+.top-menu-list li{
+	color: white;
+	font-size: 18px;
+	margin-left: 40px;
+}
+
+section{
+	padding: 80px 0;
+}
+
+.big-banner{
+	height: 700px;
+	background-image:url(back.jpg); 
+	background-size:cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.textbox{
+	background: white;
+	padding: 40px;
+	opacity: 0.7;
+	text-align: center;
+}
+
+.about{
+	background: green;
+}
+
+.big-banner .btn{
+	background: yellow;
+	color:black;
+	padding: 8px 12px;
+	text-transform: uppercase;
+	font-size: 15px;
+	display: inline-block;
+}
+
+.big-banner h1{
+	margin-bottom: 20px;
+}
+
+.banner{
+	background: #f67280;
+}
+
+.parent-flex{
+	display: flex;
+}
+
+.left{
+	background-image: url(t.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 50%;
+	height: 230px;
+	margin-top: 60px;
+	margin-bottom:60px;
+}
+
+.right{
+	width: 50%;
+	padding: 20px;
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+
+.banner h2{
+	color: #0000ff;
+	font-size: 15px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+
+.banner h3{
+	font-size: 20px;
+}
+
+.banner p{
+	font-size: 10px;
+	margin-top: 10px;
+	font-family: monospace;
+}
+
+.banner .btn{
+	background: yellow;
+	color: #000000;
+	padding: 10px 20px;
+	text-decoration: none;
+	display: inline-block;
+	text-transform: uppercase;
+	border-radius: 15px ;
+	margin-top: 15px;
+	font-size: 10px;
+
+}
